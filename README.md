@@ -2,7 +2,7 @@
 
 With travelling restriction eases as the World is matching towards herd imunity, many of us secretly keep a growing travel bucket list, longing to hit the road again. Guess what, the list doesn't has to be a secret anymore. 
 This app offers a good start, users can bring her bucket list online and keep track wherever they next land. More features are coming up to make this more helpful then it is now.  
-Travelgram is a simple cloud application modified from Udagram, which was developed alongside the Udacity Cloud Engineering Nanodegree. Users keep track of their travel bucket lists by registering and logging into a web client, posting destinations to the feed and checking destinations as they leave footprints.
+Travelgram is a simple cloud application with a slight twist from Udagram, which was developed alongside the Udacity Cloud Engineering Nanodegree. Users keep track of their travel bucket lists by registering and logging into a web client, posting destinations to the feed and checking destinations as they leave footprints.
 
 The project is split into two parts:
 
@@ -58,6 +58,11 @@ Create an AWS S3 bucket. Set the config values for environment variables prefixe
     ionic serve
     ```
 * You can visit `http://localhost:8100` in your web browser to verify that the application is running. You should see a web interface.
+
+### Accessing the App
+
+Start using the app @
+http://af92cc461efae45a5a9d93e589b80f42-1119795872.ap-southeast-1.elb.amazonaws.com:8100/
 
 ## Tips
 1. Take a look at `travelgram-api` -- does it look like we can divide it into two modules to be deployed as separate microservices?
