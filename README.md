@@ -1,8 +1,11 @@
-# travelgram Image Filtering Application
+# Travelgram travel bucket list application
 
-Travelgram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
+With travelling restriction eases as the World is matching towards herd imunity, many of us secretly keep a growing travel bucketlist, longing to hit the road again. Guess what, the list doesn't has to be a secret anymore. 
+This app offers a good start, users can bring her bucketlist online and keep track wherever they next land. More features are coming up to make this more helpful then it is now.  
+Travelgram is a simple cloud application modified from Udagram, which was developed alongside the Udacity Cloud Engineering Nanodegree. Users keep track of their travel bucketlists by registering and logging into a web client, posting destinations to the feed and checking destinations as lists grow.
 
 The project is split into two parts:
+
 1. Frontend - Angular web application built with Ionic Framework
 2. Backend RESTful API - Node-Express application
 
