@@ -9,6 +9,10 @@ The project is split into two parts:
 1. Frontend - Angular web application built with Ionic Framework
 2. Backend RESTful API - Node-Express application
 
+The projecrt source code is available at the Github repository: 
+https://github.com/jiewwantan/travelgram-microservices
+
+
 ## Getting Started
 > _tip_: it's recommended that you start with getting the backend API running since the frontend web application depends on the API.
 
