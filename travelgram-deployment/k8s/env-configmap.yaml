@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagramjwtanbkdev
+  AWS_PROFILE: default
+  AWS_REGION: ap-southeast-1
+  JWT_SECRET: "sxkmdiscnkdalan"
+  POSTGRES_DB: udagramjwtandev
+  POSTGRES_HOST: udagramjwtandev.c7uktt2diosc.ap-southeast-1.rds.amazonaws.com
+  URL: http://af92cc461efae45a5a9d93e589b80f42-1119795872.ap-southeast-1.elb.amazonaws.com:8100
+  
+metadata:
+  name: env-config
