@@ -1,0 +1,8 @@
+<ion-card class="photo-card" *ngIf="feedItem">
+  <ion-img [src]="feedItem.url"></ion-img>
+  <ion-card-content>
+    <p>Destination   <span style="color:maroon">{{feedItem.destination}} in </span><span style="color:brown">{{feedItem.country}}</span></p>
+    <p>Visited >>>>>>> <span style="color:maroon">{{feedItem.beenthere}}</span></p>
+    <p>Created on   <span style="color:olivedrab">{{feedItem.createdAt.toString().slice(0,10)}}</span></p>
+  </ion-card-content>
+</ion-card>
