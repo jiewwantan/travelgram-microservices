@@ -1,0 +1,19 @@
+version: "3"
+services:
+  reverse-proxy:
+    build:
+      context: .
+    image: jiewwantan/travelgram-microservice:reverse-proxy1.2
+  travelgram-restapi-feed:
+    build:
+      context: ../../travelgram-restapi-feed
+    image: jiewwantan/travelgram-microservice:feed1.2
+  travelgram-restapi-user:
+    build:
+      context: ../../travelgram-restapi-user
+    image: jiewwantan/travelgram-microservice:user1.2
+  travelgram-frontend:
+    build:
+      context: ../../travelgram-frontend
+    image: jiewwantan/travelgram-microservice:frontend1.2
+  
